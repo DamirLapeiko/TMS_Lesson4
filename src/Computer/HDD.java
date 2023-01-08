@@ -16,6 +16,5 @@ public class HDD {
     }
     public void infoHDD() {
         System.out.println("HDD: " + name + "\n" + "Volume: " + volume + "\n" + "Type: " + type);
-        System.out.println();
     }
 }
