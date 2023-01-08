@@ -3,10 +3,10 @@ package Computer;
 import java.sql.SQLOutput;
 
 public class Computer {
-    int value;
-    String model;
-RAM ram;
-HDD hdd;
+ int value;
+ String model;
+ RAM ram;
+ HDD hdd;
 
 public Computer(int value, String model){
     this.value = value;
@@ -21,8 +21,5 @@ public Computer(int value,String model, RAM ram, HDD hdd){
 public void info(){
     System.out.println("Информация о компьютере " + model);
     System.out.println("Стоимость " + value);
-    RAM.infoRAM();
-    HDD.infoHDD();
-    System.out.println();
 }
 }
